@@ -1,0 +1,96 @@
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+  
+  .navbar {
+    height: 70px;
+    border-top: 5px solid rgb(118, 230, 185);
+  }
+  
+  .nav-item {
+    padding: 13px;
+  }
+  
+  .nav-link:hover,
+  .nav-item:hover {
+    color: white;
+    background-color: rgb(118, 230, 185);
+  }
+  
+  .nav-link:active,
+  .nav-item:active {
+    color: white;
+    background-color: rgba(32, 197, 139);
+  }
+  
+  .li:active,
+  .a:active {
+    color: white;
+    background-color: rgb(118, 230, 185);
+  }
+  
+  .mleft {
+    position: absolute;
+    top: 250px;
+    right: 800px;
+    font-size: 18px;
+  }
+  
+  .round {
+    border-radius: 25px;
+    padding: 10px 25px;
+  }
+  
+  .carousel-indicators li {
+    width: 6px;
+    height: 5px;
+    margin: 20px;
+    border-radius: 100%;
+  }
+  
+  .fb9 {
+    border: 1px solid #3366ff;
+    background-color: #b3c6ff;
+    width: 150px;
+    height: 30px;
+  }
+  
+  .password-container {
+    width: 400px;
+    position: relative;
+  }
+  
+  .password-container input[type="password"],
+  .password-container input[type="text"] {
+    width: 100%;
+    padding: 12px 36px 12px 12px;
+    box-sizing: border-box;
+  }
+  
+  .fa-eye {
+    position: absolute;
+    top: 64%;
+    right: 5%;
+    cursor: pointer;
+    color: lightgray;
+  }
+  
+  .some {
+    width: 3vw;
+    min-width: 30px;
+  }
+  
+  .some1 {
+    margin-top: 16px;
+    text-align: right;
+  }
+  
+  @media only screen and (max-width: 980px) {
+    #hamburger1 {
+      display: block;
+      float: right;
+    }
+  }
+  
